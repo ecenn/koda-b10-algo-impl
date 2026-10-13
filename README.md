@@ -16,7 +16,7 @@
 
 ```mermaid
 
-flowchart TD
+flowchart LR
 
 a((start))
 b[/jarak/]
