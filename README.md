@@ -38,15 +38,16 @@ f --> g --> h --> z
 
     DECLARE pace : REAL     // satuan min/km
     DECLARE speed : REAL    // satuan km/jam
+    DECLARE lihatSpeed : BOOLEAN
     INPUT jarak             // satuan km - REAL
     INPUT waktu             // satuan min - REAL
-    INPUT lihatSpeed        // BOOLEAN
+    INPUT lihatSpeed
 
     pace <- waktu / jarak
 
     IF lihatSpeed = TRUE THEN
         speed <- 60 / pace
-        OUTPUT "Speed: ", speed, " dan Pace: ", pace
+        OUTPUT speed, pace
     ELSE
-        OUTPUT "Pace: ", pace
+        OUTPUT pace
     ENDIF
