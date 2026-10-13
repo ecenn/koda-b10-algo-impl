@@ -8,7 +8,7 @@
 3. Masukkan waktu lari (dalam menit)
 4. Hitung kecepatan lari (pace) dengan membagi waktu lari dengan jarak lari
 5. Apabila hanya ingin lihat pace saja, maka tampilkan pace
-6. Hitung speed dengan membagi 60 dengan pace
+6. Hitung kecepatan lari di treadmill (speed) dengan membagi 60 dengan pace
 7. Tampilkan pace dan speed
 6. Selesai
 
