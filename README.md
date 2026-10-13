@@ -22,7 +22,7 @@ a((start))
 b[/jarak/]
 c[/waktu/]
 d[pace = waktu / jarak]
-e{lihat speed?}
+e{lihatSpeed?}
 f[speed = 60 / pace]
 g[/speed/]
 h[/pace/]
