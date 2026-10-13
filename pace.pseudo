@@ -1,14 +1,17 @@
-INPUT jarak             // satuan km - REAL
-INPUT waktu             // satuan min - INTEGER
-DECLARE pace : REAL     // satuan min/km
-DECLARE speed : REAL    // satuan km/jam
+DECLARE jarak : REAL            // satuan km
+DECLARE waktu : REAL            // satuan min
+DECLARE pace : REAL             // satuan min/km
+DECLARE speed : REAL            // satuan km/jam
+DECLARE lihatPaceSaja : BOOLEAN
+INPUT jarak
+INPUT waktu
+INPUT lihatSpeed
 
 pace <- waktu / jarak
 
-INPUT lihatSpeed        // BOOLEAN
-IF lihatSpeed = TRUE THEN
-    speed <- 60 / pace
-    OUTPUT "Speed: ", speed, " dan Pace: ", pace
+IF lihatPaceSaja = TRUE THEN
+    OUTPUT pace
 ELSE
-    OUTPUT "Pace: ", pace
+    speed <- 60 / pace
+    OUTPUT speed, pace
 ENDIF
