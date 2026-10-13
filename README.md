@@ -36,14 +36,14 @@ f --> g --> h --> z
 
 ### Pseudocode
 
-    INPUT jarak             // satuan km - REAL
-    INPUT waktu             // satuan min - INTEGER
     DECLARE pace : REAL     // satuan min/km
     DECLARE speed : REAL    // satuan km/jam
+    INPUT jarak             // satuan km - REAL
+    INPUT waktu             // satuan min - REAL
+    INPUT lihatSpeed        // BOOLEAN
 
     pace <- waktu / jarak
 
-    INPUT lihatSpeed        // BOOLEAN
     IF lihatSpeed = TRUE THEN
         speed <- 60 / pace
         OUTPUT "Speed: ", speed, " dan Pace: ", pace
