@@ -1,4 +1,4 @@
-# Algoritma Implementasi
+# Materi: Implementasi Algoritma
 
 ## Program: Kecepatan Lari
 
